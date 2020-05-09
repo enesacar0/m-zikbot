@@ -1,0 +1,25 @@
+SQLite format 3@  .8
+��:YtablejsonjsonCREATE TABLE json (ID TEXT, json TEXT)
+~����C��$;!gold_421983679099830272"\"gold\""$;!gold_595270193975132179"\"gold\""$;!gold_357198730245439488"\"gold\""9I=ototagKanal_366208459332517889"\"404920849427333121\""4?=oto,?-ototag_366208459332517889"\"{FuseTeam}\"""7!ke_366208459332517889"\"acik\"""7!ke_615850728824766484"\"acik\""const Discord = require('discord.js');
+
+
+exports.run = function(client, message) {
+
+};
+
+exports.conf = {
+  enabled: true, //komutut açtık
+  guildOnly: false, //sadece servere özel yapmadık
+  aliases: ['ping','p'], //farklı çağrılar ekledik
+  permLevel: 0 //kimlerin kullanabileceğini yazdık (bot.js dosyasında perm leveller yazıyor)
+};
+
+exports.help = {
+  name: 'ping', //adını belirledik (kullanmak için gereken komut)
+  description: 'Botun pingini gösterir', //açıklaması
+  usage: 'ping' //komutun kullanım şekli (mesela hava <bölge>)
+};
+
+//komut taslağımız basit anlatımını zaten dosyalarda bulursunuz
+//bu ise bizim komut taslağımız
+//bunun üzerinden gideceğiz
